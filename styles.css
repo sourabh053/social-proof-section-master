@@ -93,3 +93,8 @@
     /* background-color: red; */
     background-image: url("images/bg-pattern-bottom-mobile.svg");
   }
+  @media screen and (min-width:650px){
+   #top{
+    display: flex;
+   }
+  }
