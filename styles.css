@@ -42,7 +42,6 @@
     row-gap: 15px;
   }
   #rating div{
-    /* border: 1px solid black; */
     width: 80vw;
     height: 60px;
     text-align: center;
@@ -59,7 +58,6 @@
     font-size: small;
   }
   .card{
-    /* border: 1px solid black; */
     width: 80vw;
     margin: 15px auto;
     padding:1.7rem;
@@ -70,7 +68,6 @@
   .card>div{
     display: flex;
     justify-content: left;
-    /* border: 1px solid black; */
   }
   .card div img{
     border-radius: 50%;
@@ -90,11 +87,131 @@
     margin-top: 5px;
   }
   #foot{
-    /* background-color: red; */
     background-image: url("images/bg-pattern-bottom-mobile.svg");
+    background-size: cover;
   }
   @media screen and (min-width:650px){
    #top{
     display: flex;
+    justify-content: center;
+    align-items: center;
    }
+   header{
+    width:50vw;
+   }
+   #rating{
+    width:50vw;
+    display: flex;
+    flex-direction: column;
+   }
+   #rating div{
+    width: 90%;
+   }
+   #foot{
+    height: 50vh;
+    position:relative;
+    margin-bottom: 0;
+
+   }
+   .card{
+    margin: 0 auto;
+   }
+   .lftcrd{
+    position:absolute;
+    left:0;
+    width:30vw;
+    
+   }
+   .ctrcrd{
+    width:30vw;
+    position:absolute;
+    left:35%;
+    top:25%;
+    margin:0 auto;
+   }
+   .rytcrd{
+    position:absolute;
+    right:0;
+    bottom: 0;
+    width:30vw;
+   }
+  }
+   @media screen and (min-width:1225px){    
+    header{
+      height:46vh;
+      background-image: url("images/bg-pattern-top-desktop.svg");
+      background-size: contain;
+      background-repeat: no-repeat;
+    }
+    header h2{
+      font-size: 3rem;
+      padding: 40px 100px;
+      margin: 0;
+    }
+    header p{
+      width:60%;
+      margin: 0 auto;
+    }
+    #rating{
+      width:50vw;
+      position:relative;
+      height:46vh;
+     }
+     #rating div{
+      width: 70%;
+      height:50px;
+      position:absolute;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+     }
+     #rating div img{
+      width:15px;
+      margin: auto 3px;
+     }
+     #rating div b{
+      margin-left: 10px;
+     }
+     .lft{
+      left: 20px;
+      top:55px;
+      width: 100%;
+     }
+     .cnt{
+      left:60px;
+      top:125px;
+     }
+     .ryt{
+      right: 50px;
+      bottom: 35px;
+     }
+    #foot{
+      height: 47vh;
+      position:relative;
+      margin-bottom: 0;
+      background-image: url("images/bg-pattern-bottom-desktop.svg");
+      background-size: cover;
+     }
+     .card{
+      margin: 0 auto;
+     }
+     .lftcrd{
+      position:absolute;
+      left:13%;
+      top:7%;
+      width:25vw;
+     }
+     .ctrcrd{
+      width:25vw;
+      position:absolute;
+      left:40%;
+      top:15%;
+      margin:0 auto;
+     }
+     .rytcrd{
+      position:absolute;
+      right:94px;
+      bottom: 50px;
+      width:25vw;
+     }
   }
