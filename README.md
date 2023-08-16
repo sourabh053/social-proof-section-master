@@ -27,7 +27,7 @@ The challenge was to build out this social proof section and get it looking as c
 
 ### Screenshot
 
-![Desktop Screenshot](/Screenshots/Screenshot%20Desktop.png.jpg)
+![Desktop Screenshot](/Screenshots/Screenshot%20Desktop.png)
 ![Mobile Screenshot 1](/Screenshots/ScreenShot%20Mobile%201.jpg)
 ![Mobile Screenshot 2](/Screenshots/ScreenShot%20Mobile%202.jpg)
 
@@ -37,7 +37,7 @@ The challenge was to build out this social proof section and get it looking as c
 
 ## My process
 
-Firstly i made a rough blueprint of the site i figured out where to use what element and which element should be nested into other and which elements should have classes and ids. after making basic html and css for mobile i started on desktop design.
+Firstly i made a rough blueprint of the site then i figured out where to use what element and which element should be nested into other and which elements should have classes and ids. after making basic html and css for mobile i started on desktop design.
 
 ### Built with
 
@@ -48,7 +48,7 @@ Firstly i made a rough blueprint of the site i figured out where to use what ele
 
 ### What I learned
 
-for the reviews and rating section it requires a layout with 3 divs and 3 divs have to positioned differently like one in left top, one in center,one in bottom right so for this i used CSS positioning properties.I used display relative and absolute as follows;-
+for the reviews and rating section it requires a layout with 3 divs and 3 divs have to be positioned differently like one in left top, one in center,one in bottom right so for this i used CSS positioning properties.I used display relative and absolute as follows;-
 
 
 ```css
@@ -74,7 +74,7 @@ for the reviews and rating section it requires a layout with 3 divs and 3 divs h
 
 ### Continued development
 
-I really wanted to used display grid in this challenge, i tried but no able tp get the desired result but i want to learn this property and use this in future projects.
+I really wanted to used display grid in this challenge, i tried but not able to get the desired result but i want to learn this property and use this in future projects.
 
 ### Useful resources
 
